@@ -1,4 +1,4 @@
-# Clonando e executando este repositório
+# Clonando e executando este projeto
 
 1. Clique sobre o botão verde `[Code]` e copie o endereço deste repositório.
 2. Abra o Visual Studio Code. Se houver algum projeto aberto, feche-o usando a opção de menu `Arquivo > Fechar Pasta` (ou `File > Close folder`).
