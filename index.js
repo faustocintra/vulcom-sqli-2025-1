@@ -35,7 +35,7 @@ app.post('/login', (req, res) => {
         if (err) {
             return res.send('Erro no servidor');
         }
-        if (rows) {
+        if (rows.length > 0) {
             console.log('CONSULTA: ', query);
             console.log('RESULTADO:', rows);
             return res.send(`Bem-vindo, ${username}! <br> Flag: VULCOM{SQLi_Exploit_Success}`);
